@@ -6,4 +6,4 @@ clean:
 .PHONY: package
 package: clean
 	mkdir -p build
-	zip -r build/ergo-delta-$(VERSION).deltaskin src
+	zip -r build/ergo-delta-$(VERSION).deltaskin -j src/*
