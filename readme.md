@@ -3,8 +3,11 @@
 # Overview
 I wasn't satisfied with the original Delta skin so I tried to find a more ergonomic skin to fit the Game I wanted to play... Since I didn't find anything that fit my liking, I make one myself.
 
-# How to use
-Run `make package` to generate the delta skin in the build folder
+# How to get setup
+Download  the `.deltaskin` file from the latest version in the [releases page](https://github.com/athattayathu/ergo-delta-skin/releases) 
+
+# Want to run it yourself?
+Run `make package` to generate the delta skin in the `build/out` folder
 
 # Project Roadmap
 ## V1

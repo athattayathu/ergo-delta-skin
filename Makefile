@@ -4,7 +4,10 @@ clean:
 
 .PHONY: package
 package: clean
-	@echo "Version is $(VERSION)"
-	mkdir -p build
-	zip -r build/ergo-delta-$(VERSION).deltaskin -j src/*
+	mkdir -p build/src
+	mkdir -p build/out
+	cp -r src/* build/src/
+	@echo "Version: $(VERSION) \nProject: ergo-delta-skin \nLink: https://github.com/athattayathu/ergo-delta-skin" > build/src/version.txt
+
+	zip -r build/out/ergo-delta-$(VERSION).deltaskin -j build/src/*
 
