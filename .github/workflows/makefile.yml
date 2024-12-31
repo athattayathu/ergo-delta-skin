@@ -16,4 +16,4 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          files: build/ergo-delta.deltaskin
+          files: build/ergo-delta-${{  github.ref_name }}.deltaskin

@@ -6,5 +6,5 @@ clean:
 package: clean
 	@echo "Version is $(VERSION)"
 	mkdir -p build
-	zip -r build/ergo-delta.deltaskin -j src/*
+	zip -r build/ergo-delta-$(VERSION).deltaskin -j src/*
 
