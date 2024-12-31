@@ -11,5 +11,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: package
-        run: make package
+      - name: Package
+        run: make package VERSION=${{ github.event.release.tag_name }}
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: build/ergo-delta.deltaskin
