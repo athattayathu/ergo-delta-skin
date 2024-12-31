@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Package
-        run: make package VERSION=${{ github.event.ref }}
+        run: make package VERSION=${{  github.ref_name }}
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
