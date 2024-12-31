@@ -4,7 +4,7 @@ clean:
 
 .PHONY: package
 package: clean
-	@echo "$(VERSION)"
+	@echo "Version is $(VERSION)"
 	mkdir -p build
 	zip -r build/ergo-delta.deltaskin -j src/*
 
