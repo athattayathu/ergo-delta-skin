@@ -1,4 +1,5 @@
 # An Ergonomic Skin for Delta
+![image](https://github.com/user-attachments/assets/af3e838d-fae4-40bb-98fc-b00606641386)
 
 # Overview
 I wasn't satisfied with the original Delta skin so I tried to find a more ergonomic skin to fit the Game I wanted to play... Since I didn't find anything that fit my liking, I make one myself.
