@@ -1,18 +1,19 @@
 # An Ergonomic Skin for Delta
 
-## Overview
+# Overview
 I wasn't satisfied with the original Delta skin so I tried to find a more ergonomic skin to fit the Game I wanted to play... Since I didn't find anything that fit my liking, I make one myself.
 
-# Project Roadmap
+# How to use
+Run `make package` to generate the delta skin in the build folder
 
-1. - [ ] Get a better understanding of how to get "point" location from inkscape
-2. - [ ] Create a new skin that has:  
+# Project Roadmap
+## V1
+1. - [x] Get a better understanding of how to get "point" location from inkscape
+2. - [x] Create a new skin for landscape DS that has:  
        - the DPAD in an optimal position due to frequent usage as part of navigation
        - Quick Save/Load buttons in an optimal position to avoid accidental presses
-3. - [ ] Test the skin in Delta
-4. - [ ] Get better understanding of how we can make edits to skins easier for dpad sizing
-6. - [ ] see how customizable we can make the skin by using SVGs for each asset and allowing for placement in various locations on screen
-
+3. - [x] Test the skin in Delta
+4. - [ ] Automate Release pipeline via Github Actions
 
 ## Pdf Output Sizes
 
