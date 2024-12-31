@@ -1,4 +1,4 @@
-VERSION := "1.0.0"
+VERSION := "0.1.0"
 .PHONY: clean
 clean:
 	rm -rf build
